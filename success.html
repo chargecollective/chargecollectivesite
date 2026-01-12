@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Received | Charge Collective</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00d1b2; /* Clean Tech Teal */
+            --dark: #1a1a1a;
+            --light: #f5f7fa;
+            --text: #333;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: var(--light);
+        }
+
+        .success-card {
+            background: white;
+            padding: 4rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+            max-width: 450px;
+            text-align: center;
+            width: 90%;
+        }
+
+        .icon-container {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(0, 209, 178, 0.1);
+            color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem auto;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: var(--dark);
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn-home {
+            display: inline-block;
+            background-color: var(--dark);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .btn-home:hover {
+            background-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .success-card { padding: 3rem 1.5rem; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="success-card">
+        <div class="icon-container">
+            ✓
+        </div>
+        <h1>Message Received</h1>
+        <p>Thank you for reaching out to Charge Collective. Our team will review your inquiry and get back to you shortly.</p>
+        <a href="index.html" class="btn-home">Return Home</a>
+    </div>
+
+</body>
+</html>
